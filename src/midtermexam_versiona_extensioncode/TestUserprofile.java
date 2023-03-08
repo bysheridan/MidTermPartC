@@ -59,7 +59,10 @@ public class TestUserprofile {
 
 
 		UserProfile user = new UserProfile(userID, UserProfile.genres[genreChoice]);
-		
+
+		System.out.println("Your user profile has been created.");
+		System.out.println("Name: " + user.getUserID());
+		System.out.println("Favourite Genre: " + user.getGenre());
 	}
 	
 }
